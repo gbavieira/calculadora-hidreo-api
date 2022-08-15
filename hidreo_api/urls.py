@@ -23,6 +23,6 @@ router.register('basica', LeadBasicaViewSet, basename='Básica')
 router.register('avancada', LeadAvancadaViewSet, basename='Avancada')
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('controle/', admin.site.urls),
     path('', include(router.urls)),
 ]
